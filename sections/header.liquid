@@ -37,3 +37,17 @@
   </section>
 
   {% include 'menu' %}
+
+  {% schema %}
+  {
+    "name": "Main Menu",
+    "settings": [
+    {
+      "type": "link_list",
+      "id": "main_linklist",
+      "label": "menu",
+      "default": "main-menu"
+    }
+    ]
+  }
+  {% endschema %}
